@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>这是我的html</title>
+        <!-- <style  type="text/css">
+            body{
+                background:linear-gradient(to bottom right,#e290a0,#b57380);
+                margin: 0;
+                padding:0;
+            }
+            h1{
+                color:#58383e;
+                font-size: 240px;
+            }
+            h2{
+                color:#58383e;
+                font-size: 100px;
+            }
+            .lyrics{
+                font-size: 60px;
+            }
+            button{
+                color: #e290a0;
+                background-color: #58383e;
+                height: 50px;
+                width: 100px;
+                border-color: #58383e;
+            }
+            .titles{
+                line-height: 40px;
+            }
+            .hello{
+                display: block;
+                white-space: pre-wrap;
+            }
+
+        </style>
+    </head> -->
+    <body>
+        <div class = "titles">
+            <h1 align ="center">这是一级标题</h1>
+            <h2 align ="center">这是二级标题</h2>
+        </div>
+        <div class="button" align="center">
+            <button  onclick="tipWindow()">这是一个按钮</button>
+        </div>
+        <div class="choose" align="center">
+            <h3>这是一个单选框</h3>
+            <input class="No" type="radio" name="choose1" value="NO">NO
+            <input class="Yes" type="radio" name="choose1" value="YES">YES
+            <h3>这是一个复选框</h3>
+            <input class="No" type="checkbox" name="choose2" value="NO">NO
+            <input class="Yes" type="checkbox" name="choose3" value="YES">YES
+            <input class="YesButNo" type="checkbox" name="choose4" value="YesButNo">YES but NO
+        </div>
+        <div class="TextArea" align="center">
+            <textarea name="discription" coals="20" rows="10">相信经过了一些学习你已经对HTML有一个初步的了解啦，那么，尝试一下下面这个简简单单的小题吧，耶！</textarea>
+        </div>
+        <p align="center" class="lyrics">I live in a constant state of fear and misery
+           <br> Do you miss me anymore?
+           <br>And I don't even notice
+           <br>When it hurts anymore
+           <br>Anymore
+           <br>Anymore
+           <br>Anymore</p>
+        <pre align ="center">
+        <pre align ="center">
+            <p align="center" class="lyrics">
+标签语义化能使的页面呈现清晰结构，不只是让人能够方便理解，
+还能让机器也能够理解。不仅是使开发人员和特殊需求人群获得
+便利，也使得机器能在人类最少干预的情况下收集和研究网页上
+的信息。
+            </p>
+            <code class="hello">
+public class HelloWorld{
+    public static void mian(String args[]){
+        System.out.println("Hello World");
+     }
+}
+            </code>
+        </pre>
+        <p align ="center">
+        <image src = "https://img.discogs.com/0qVsoCZS7XhuzCqNnKiSArkFWM0=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-9605549-1483543202-4403.jpeg.jpg" ></image>
+        </p>
+        <p align ="center">
+        <br><a href="https://www.bilibili.com/video/BV16K4y1v7Wh/" target="_blank">Fried Noondles</a>
+        </p>
+         <table border="1" align ="center">
+            <tr>
+                <th>表头1</th>
+                <th>表头2</th>
+            </tr>
+            <tr>
+                <td>内容1</td>
+                <td>内容2</td>
+            </tr>
+            <tr>
+                <td>内容3</td>
+                <td>内容4</td>
+            </tr>
+         </table>
+    </body>
+    <script>
+        function tipWindow(){
+            confirm("芝士弹窗")
+        }
+    </script>
+</html>

@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background: url('/images/BAILAN45.jpg') no-repeat;
+    background-size: cover;
+
+}
+.Content{
+    width: 1200px;
+    height: 600px;
+    
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.BasicalInfo{
+    background-color: rgb(59,41,41,0.7);
+    padding: 100px;
+    color:rgb(198,160,137);
+    backdrop-filter: blur(1px);
+    border-radius: 20px;
+
+} 
+.BasicalInfo h2{
+    letter-spacing: 0.2em;
+    font-size: 100px;
+}
+.BasicalInfo h4{
+    line-height:50px ;
+    font-size: 30px;
+}
+.ContactInfo{
+    line-height: 60px;
+    font-size: 50px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+}
+.Photo{
+    position: absolute;
+    right: 100px;
+    top:140px;
+
+}
+.SchoolSth{
+    line-height: 50px;
+    position:relative;
+    bottom:10px;
+
+}
